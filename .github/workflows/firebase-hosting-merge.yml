@@ -37,6 +37,10 @@ jobs:
         uses: subosito/flutter-action@v2
         with:
           flutter-version: '3.22.1' # yoki siz ishlatayotgan versiya
+          cache: false
+
+      - name: Check Flutter version
+        run: flutter --version
 
       - name: Install dependencies
         run: flutter pub get
