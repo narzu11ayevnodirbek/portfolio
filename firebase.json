@@ -1,16 +1,4 @@
 {
-  "flutter": {
-    "platforms": {
-      "dart": {
-        "lib/firebase_options.dart": {
-          "projectId": "portfolio-ae114",
-          "configurations": {
-            "web": "1:1037197734207:web:d9b0b7ee05facf3152638a"
-          }
-        }
-      }
-    }
-  },
   "hosting": {
     "public": "build/web",
     "ignore": [
