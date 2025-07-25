@@ -3,6 +3,7 @@
 import 'package:firebase_core/firebase_core.dart' show FirebaseOptions;
 import 'package:flutter/foundation.dart'
     show defaultTargetPlatform, kIsWeb, TargetPlatform;
+import 'package:portfolio/core/secrets/secrets.dart';
 
 /// Default [FirebaseOptions] for use with your Firebase apps.
 ///
@@ -53,7 +54,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyC0EIuUWHt47RUycsgKthQICUqw-i9dUkU',
+    apiKey: Secrets.firebaseApiKey,
     appId: '1:1037197734207:web:d9b0b7ee05facf3152638a',
     messagingSenderId: '1037197734207',
     projectId: 'portfolio-ae114',
